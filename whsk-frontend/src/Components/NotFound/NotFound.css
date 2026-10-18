@@ -1,0 +1,22 @@
+.container-404 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.number-4 {
+  font-size: 6rem;
+  font-family: "Luckiest guy";
+  font-weight: bold;
+  color: var(--lightAccent);
+}
+
+.number-4:first-child {
+  margin-right: 0.2em;
+}
+
+.not-found-text {
+  font-size: 1.125rem;
+  text-align: center;
+}

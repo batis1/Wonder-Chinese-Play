@@ -1,0 +1,9 @@
+.git
+**/node_modules
+**/.env*
+**/tests
+**/output
+**/build
+**/.build-next
+.local
+output

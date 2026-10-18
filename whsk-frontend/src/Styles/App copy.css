@@ -1,0 +1,210 @@
+/*----- Global CSS -----*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+/* 
+font-family: 'Poppins', sans-serif; - for all text, adjusting font-weight as you need to
+font-family: 'Roboto Mono', monospace; - for bomb countdown
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+/*----- Colours -----*/
+/* All colours can be used using var(--colourYouWant) */
+
+:root {
+  /* Main colors */
+  --lightAccent: #ffffff; /* white */
+  --darkAccent: #363537; /* jet */
+  --redAccent: #bf211e; /* venetian red */
+  --orangeAccent: #ff8c42; /* mango tango */
+  --yellowAccent: #e9ce2c; /* safety yellow */
+  --greyAccent: #c4c4c4; /* lighter grey */
+  --darkerGrey: #8b939c; /* darker grey for hover */
+  --darkerOrange: #e67329; /* darker orange for hover */
+}
+
+/*----- Global Styles -----*/
+
+body {
+  margin: 0;
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+  background: var(--darkAccent);
+  /* background-image: url("bkgroundbomb.svg"); */
+  background-repeat: no-repeat;
+  background-position-y: 35%;
+  background-position-x: -40%;
+  background-size: cover;
+
+  color: var(--lightAccent);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--lightAccent);
+  padding-bottom: 1em;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: var(--lightAccent);
+}
+
+a:hover,
+.navbar-selected {
+  text-decoration: none;
+  color: var(--orangeAccent);
+  /* font-weight: 600; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ----- Fonts -----*/
+
+h1 {
+  font-size: 1.802rem;
+}
+
+h2 {
+  font-size: 1.602rem;
+}
+
+h3 {
+  font-size: 1.424rem;
+}
+
+/* ----- Buttons ----- */
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--orangeAccent);
+  color: var(--lightAccent);
+}
+
+.btn-primary:hover {
+  background: var(--darkerOrange);
+}
+
+.btn-secondary {
+  background: var(--greyAccent);
+  color: var(--lightFont);
+}
+
+.btn-secondary:hover {
+  background: var(--darkerGrey);
+}
+
+/* ----- Box Shadow ----- */
+
+.form-input,
+.btn {
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.avatarImg-uploader {
+  filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.3));
+}
+
+/* ----- Layouts ----- */
+
+.content {
+  width: 90%;
+  height: 85vh; /*calc(100vh - 80px);*/
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+/* ----- Forms ----- */
+
+.form-label {
+  color: var(--lightAccent);
+}
+
+.form-input {
+  font-family: "Poppins", sans-serif;
+  color: var(--darkAccent);
+  border-radius: 10px;
+}
+
+.ant-form-item .ant-form-item-label {
+  padding-bottom: 0;
+}
+
+.ant-form-item-label > label {
+  color: var(--lightAccent);
+  font-size: 1rem;
+}
+
+.ant-form-item-label
+  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+  display: none;
+}
+
+.ant-form-item-label
+  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::after {
+  display: inline-block;
+  margin-left: 4px;
+  color: #ff4d4f;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  content: "*";
+}
+
+form p {
+  padding: 2em 0;
+}
+
+.form-text {
+  color: var(--lightAccent);
+}
+
+.form-link {
+  color: var(--orangeAccent);
+}
+
+.form-link:hover {
+  color: var(--darkerOrange);
+}
+
+form .btn {
+  margin-top: 1em;
+}
+
+/* ----- Media Queries ----- */
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 1.125rem;
+  }
+
+  .App {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

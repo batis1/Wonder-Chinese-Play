@@ -1,0 +1,74 @@
+.scoreboard-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+.scoreboard-container button.ant-dropdown-trigger {
+  align-self: flex-end;
+  margin-bottom: 1em;
+}
+
+.leadHeader {
+  color: white;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.podium {
+  display: flex;
+  height: 140px;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 3em;
+  justify-content: space-between;
+  padding-right: 1em;
+  align-self: center;
+  flex-shrink: 0;
+}
+.podium-1st {
+  order: 2;
+  align-self: start;
+}
+.podium-2nd {
+  order: 1;
+  align-self: end;
+}
+.podium-3rd {
+  order: 3;
+  align-self: end;
+}
+
+/* table styles */
+div.tableScore div.ant-table-wrapper {
+  max-width: 600px;
+  margin: auto;
+}
+
+
+table thead.ant-table-thead tr th {
+  background: var(--darkerGrey);
+  font-weight: 600;
+
+  border: none;
+}
+
+table tbody.ant-table-tbody tr td {
+  background: var(--greyAccent);
+  border: none;
+}
+
+table tbody.ant-table-tbody tr :nth-child(1),
+table tbody.ant-table-tbody tr :nth-child(3),
+table tbody.ant-table-tbody tr :nth-child(4),
+table thead.ant-table-thead tr :nth-child(1),
+table thead.ant-table-thead tr :nth-child(3),
+table thead.ant-table-thead tr :nth-child(4) {
+  text-align: right;
+}
+
+.tableScore{
+  padding-bottom: 50px;
+}

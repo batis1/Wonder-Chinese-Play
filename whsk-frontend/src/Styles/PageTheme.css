@@ -1,0 +1,244 @@
+/* Shared presentation only. Answer feedback, timers, and animation transforms
+   remain controlled by their existing components and inline state styles. */
+.whsk-app {
+  --whsk-ink: #363537;
+  --whsk-muted: #696170;
+  --whsk-line: #dcd5e5;
+  --whsk-paper: #f3f0fa;
+  --lightAccent: #363537;
+  --darkAccent: #363537;
+  --orangeAccent: #ff8c42;
+  --darkerOrange: #ff8c42;
+  --greyAccent: #eae4f0;
+  --darkerGrey: #d3dfc9;
+  --yellowAccent: #f3d56a;
+  --card-bg: #fff;
+  background: var(--whsk-paper);
+  color: var(--whsk-ink);
+  padding: 0 0 40px;
+  min-height: 100%;
+  height: auto;
+  overflow: visible;
+}
+.whsk-app > header { background: #f3f0fa; color: #363537; border-bottom: 1px solid #e6e0ed; }
+.whsk-app .navbar a, .whsk-app .subLogoHSK, .whsk-app .navbar-icon { color: #363537; }
+.whsk-app .navbar .navbar-item { font-size: 18px; font-weight: 600; }
+.whsk-app .navbar a.navbar-selected { color: #a44416; }
+.whsk-app .menuNav { background: #f3f0fa; }
+.whsk-app > .content { padding: 32px 28px 64px; }
+.whsk-app .content header { position: static; height: auto; padding: 0; display: block; background: transparent; box-shadow: none; }
+.whsk-app h1, .whsk-app h2, .whsk-app h3, .whsk-app h4 {
+  font-family: "Nunito", "Poppins", sans-serif;
+  color: #363537;
+  letter-spacing: 0;
+}
+.whsk-app .page-title, .whsk-app .login-container h1, .whsk-app .signup-container h1, .whsk-app .header {
+  background: none;
+  -webkit-text-fill-color: #363537;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 1.2;
+  padding-bottom: 0;
+  margin: 0 0 30px;
+  text-align: center;
+}
+.whsk-app > header a, .whsk-app > .content > :not(.whsk-home) a { color: #363537; }
+.whsk-app > header a:hover, .whsk-app > .content > :not(.whsk-home) a:hover { color: #a44416; }
+.whsk-app :where(button, a, input, textarea, [tabindex]):focus-visible { outline: 3px solid #337762; outline-offset: 4px; }
+.whsk-app button, .whsk-app input, .whsk-app textarea { letter-spacing: 0; }
+.whsk-app .form-text, .whsk-app .select-hsk-container p { color: #696170; }
+.whsk-app .form-link { color: #a44416; }
+.whsk-app .loading-text { color: #696170; }
+.whsk-app .loader-circle { border-color: #e0d8eb; border-top-color: #ff8c42; }
+
+/* Authentication and account forms share a white writing surface. */
+.whsk-app .content .login-container, .whsk-app .content .signup-container {
+  width: calc(100% - 32px);
+  max-width: 540px;
+  margin: 28px auto 64px;
+  padding: 36px;
+  border: 1px solid #dcd5e5;
+  border-top: 6px solid #ff8c42;
+  border-radius: 8px;
+  background: #fff;
+  backdrop-filter: none;
+  box-shadow: 6px 6px 0 #e3dced;
+}
+.whsk-app .content:has(.login-container) {
+  position: relative;
+  isolation: isolate;
+  min-height: max(860px, calc(100vh - 160px));
+  background: #f3f0fa;
+  padding-bottom: 100px;
+}
+.whsk-app:has(.login-container) { background: #fff; padding-bottom: 0; }
+.whsk-app .content:has(.login-container)::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 40px 50%;
+  width: min(100%, 1800px);
+  transform: translateX(-50%);
+  background: url("../Images/whsk-learning-hero.webp") center bottom / 100% auto no-repeat;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 5%, #000 95%, transparent);
+  pointer-events: none;
+  z-index: -1;
+}
+.whsk-app .content:has(.login-container)::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -1px;
+  height: 70px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 100' preserveAspectRatio='none'%3E%3Cpath fill='%23fff' d='M0 40 C120 105 185 5 300 35 S465 100 600 30 S785 5 915 45 S1080 95 1190 35 S1350 20 1440 45 V100 H0 Z'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  pointer-events: none;
+  z-index: -1;
+}
+.whsk-app .ant-form-item-label > label { color: #48424d; font-weight: 600; }
+.whsk-app .ant-input, .whsk-app .ant-input-affix-wrapper, .whsk-app .ant-input-number, .whsk-app .ant-select-selector {
+  border-color: #c8bfd2 !important;
+  border-radius: 6px !important;
+  background: #fcfafe !important;
+  color: #363537 !important;
+  box-shadow: none;
+}
+.whsk-app .ant-input-affix-wrapper > .ant-input { background: transparent !important; }
+.whsk-app .ant-input::placeholder, .whsk-app .ant-select-selection-placeholder { color: #79717f !important; }
+.whsk-app .ant-select-selection-item { color: #363537 !important; font-size: 16px !important; }
+.whsk-app .content .ant-input-disabled, .whsk-app .content .ant-input[disabled] { color: #6d6475 !important; background: #eeeaf3 !important; }
+.whsk-app .ant-input-affix-wrapper-focused, .whsk-app .ant-select-focused .ant-select-selector { border-color: #a15b2e !important; box-shadow: 0 0 0 3px #fff0df !important; }
+.whsk-app .ant-btn { border-radius: 6px; color: #363537; border-color: #bfb4cb; height: auto; min-height: 42px; }
+.whsk-app .content .ant-btn-primary, .whsk-app .content .btn.btn-primary {
+  background: #ff8c42 !important;
+  color: #363537 !important;
+  border: 1px solid #363537 !important;
+  border-radius: 6px !important;
+  box-shadow: 0 3px 0 #363537 !important;
+  height: auto !important;
+  min-height: 48px;
+  width: auto !important;
+  padding: 10px 20px;
+  margin: 8px 0 18px !important;
+  font-weight: 700 !important;
+}
+.whsk-app .content .ant-form .ant-btn-primary { width: 100% !important; }
+.whsk-app .ant-btn-primary:hover, .whsk-app .btn.btn-primary:hover { background: #ff9d60 !important; }
+.whsk-app .ant-btn-primary[disabled], .whsk-app .ant-btn[disabled] { background: #e9e3ed !important; color: #7b727f !important; border-color: #d1c9d8 !important; box-shadow: none !important; }
+.whsk-app .ant-tabs { color: #363537 !important; }
+.whsk-app .ant-tabs-tab { color: #696170 !important; }
+.whsk-app .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn { color: #984415 !important; }
+.whsk-app .ant-tabs-ink-bar { background: #ff8c42 !important; }
+.whsk-app .ant-tabs-nav { border-color: #e6deee; }
+.whsk-app .login-container .ant-tabs-tab { flex: 1 !important; opacity: 1 !important; padding: 10px 8px !important; }
+.whsk-app .login-container .ant-tabs-tab .ant-tabs-tab-btn { transform: none !important; font-size: 14px; }
+.whsk-app .login-container .ant-tabs-tab-active { background: #f3f0fa; border-radius: 6px 6px 0 0; }
+.whsk-app .error-message { color: #8f2727 !important; background: #ffeded !important; border: 1px solid #e9b4b4; }
+
+/* Tables, filters, and scores. */
+.whsk-app .scoreboard-container { max-width: 1050px; padding: 28px 0; }
+.whsk-app .scoreboard-container > .ant-dropdown-trigger { align-self: flex-end; margin-bottom: 38px; background: #fff; }
+.whsk-app .podium { max-width: 650px; margin-top: 12px; margin-bottom: 70px; }
+.whsk-app .podium > div { padding: 16px; background: #e7dfef; border-radius: 8px; }
+.whsk-app .podium > .podium-1st { background: #fbeab3; }
+.whsk-app .podium > .podium-2nd { background: #e0ebf0; }
+.whsk-app .podium > .podium-3rd { background: #f9e0cb; }
+.whsk-app div.tableScore div.ant-table-wrapper { max-width: none; }
+.whsk-app .ant-table-wrapper { min-width: 0; }
+.whsk-app .ant-table { border: 1px solid #dcd5e5; border-radius: 8px; overflow: hidden; background: #fff; color: #363537; }
+.whsk-app table thead.ant-table-thead tr th { background: #e5ddef; color: #48404f; border-bottom: 1px solid #cfc4dc; padding: 17px 20px; }
+.whsk-app table tbody.ant-table-tbody tr td { background: #fff; color: #363537; border-bottom: 1px solid #eee8f2; padding: 16px 20px; }
+.whsk-app .ant-table-tbody > tr:nth-child(even) > td { background: #faf8fc; }
+.whsk-app .ant-table-tbody > tr:hover > td { background: #f2f6ed !important; }
+.whsk-app .ant-table-cell { font-size: 15px; }
+.whsk-app .ant-empty-description { color: #756c7e; }
+.whsk-app .vocabulary-page { max-width: 1380px; margin: 24px auto; }
+.whsk-app .vocabulary-page .ant-table-wrapper { width: 100%; }
+.whsk-app .vocabulary-page .btn { background: #ffe0c7; color: #363537; border: 1px solid #e1bea2; padding: 7px 16px; border-radius: 6px; box-shadow: none; }
+
+/* Keep the lesson animation and popup behavior, remove the old spacer layout. */
+.whsk-app .tutorial-page { height: auto !important; min-height: 70vh; display: block !important; padding: 24px 0 90px; }
+.whsk-app .tutorial-page > div { margin-bottom: 0; }
+.whsk-app .tutorial-page .skill-tree { margin-top: 0; padding-top: 12px; }
+.whsk-app .tutorial-page .page-title { margin-bottom: 40px; }
+.whsk-app .tutorial-page .LessonTitle { color: #363537; font-family: "Nunito", sans-serif; font-size: 22px; font-weight: 900; }
+.whsk-app .course-image-span-container { background: #ff8c42; border: 2px solid #363537; box-shadow: 0 4px 0 #363537; }
+.whsk-app .skill-modal-container { background: #e6ddf2; color: #363537; border: 1px solid #c7b8db !important; border-radius: 8px; box-shadow: 5px 5px 0 #d5c9e2; }
+.whsk-app .skill-modal-container::after { border-bottom-color: #e6ddf2 !important; }
+.whsk-app .skm-start-btn { border: 1px solid #363537; border-bottom-width: 3px; border-radius: 6px; background: #fff; color: #363537; letter-spacing: 0; }
+.whsk-app .skm-start-btn:hover { background: #ffe0c7; }
+
+/* Game controls keep inline answer-state colors and all existing animation. */
+.whsk-app .Quiz { color: #363537; max-width: 1100px; margin: 24px auto 0; }
+.whsk-app .Quiz .questionTitle { color: #363537; line-height: 1.6; }
+.whsk-app .Quiz .difficulty { border: 1px solid #d2c7de; font-weight: 600; font-size: 14px; }
+.whsk-app .Quiz .difficulty.Easy, .whsk-app .Quiz .difficulty.easy { background: #dceccf; color: #315239; }
+.whsk-app .Quiz .difficulty.Medium, .whsk-app .Quiz .difficulty.medium { background: #f9e8a9; color: #6b4c16; }
+.whsk-app .Quiz .difficulty.Hard, .whsk-app .Quiz .difficulty.hard { background: #f7d8dd; color: #8c3242; }
+.whsk-app .Quiz div.options button { background-color: #fff; color: #363537; border: 1px solid #c6bacf; border-radius: 8px; box-shadow: 0 3px 0 #d7ccdf; width: 380px; max-width: 100%; min-height: 64px; height: auto; padding: 6px 16px; margin-bottom: 14px; }
+.whsk-app .Quiz div.options button:hover { background-color: #f5eadc; }
+.whsk-app .Quiz .options { width: min(100%, 480px); padding-inline: 20px; }
+.whsk-app .Quiz .ellipseOption { flex-shrink: 0; }
+.whsk-app .Quiz .draggable-list .card { background-color: #fff; color: #363537; border: 1px solid #c6bacf; border-radius: 8px; }
+.whsk-app .skill-progress-container { background: #ded4e8; }
+.whsk-app .endscreenScore { color: #a64c12; }
+.whsk-app .game-over { color: #363537; }
+.whsk-app .endbtn { background: #ff8c42; color: #363537; border: 1px solid #363537; border-radius: 6px; box-shadow: 0 3px 0 #363537; min-height: 50px; }
+
+/* Supporting pages and tutor forms. */
+.whsk-app .howtoplay-page { padding-top: 28px; }
+.whsk-app .rule-container { border: 1px solid #ddd4e6; border-radius: 8px; background: #fff; }
+.whsk-app .rule-container:nth-child(2n) { background: #e6efdf; }
+.whsk-app .rule { color: #48424d; font-size: 17px; }
+.whsk-app .container:has(.app-about), .whsk-app .not-found-page { padding: 32px; }
+.whsk-app .team-member { background: #eae2f3; border-radius: 8px; margin: 8px; }
+.whsk-app .team-icon { color: #a44416; }
+.whsk-app .not-found-text a { color: #a44416; text-decoration: underline; }
+.whsk-app .number-4 { color: #363537; }
+.whsk-app .tutor-main_content .card-tutor { background: #fff; border: 1px solid #dcd5e5; border-radius: 8px; }
+.whsk-app .tutor-main_content .card-tutor .card-tutor_header { color: #363537; }
+.whsk-app .card-tutor_header-p { color: #696170; }
+.whsk-app .tutor-main_content .card-tutor:hover { background: #e6efdf; }
+.whsk-app .tutor-dashboard-operation { gap: 16px; }
+.whsk-app .tutor-dashboard-operation > button { flex: 1; }
+.whsk-app .tutor-dashboard-operation > button:last-child { background: #f5cfd5 !important; }
+
+/* Ant Design renders these overlays outside the application root. */
+body:has(.whsk-app) :is(.ant-modal-content, .ant-popover-inner, .ant-dropdown-menu, .ant-select-dropdown) { background: #fff; color: #363537; border: 1px solid #dcd5e5; border-radius: 8px; }
+body:has(.whsk-app) .ant-select-item-option-selected { background: #e6efdf !important; }
+body:has(.whsk-app) .ant-dropdown-menu-item:hover { background: #f2edf8; }
+body:has(.whsk-app) .ant-modal .ant-select-selector { background: #fcfafe !important; border-color: #c8bfd2 !important; border-radius: 6px !important; }
+body:has(.whsk-app) .ant-modal .ant-select-selection-item, body:has(.whsk-app) .ant-modal .ant-select-selection-placeholder { color: #696170 !important; }
+body:has(.whsk-app) .ant-modal .select-hsk-container p { color: #696170; }
+body:has(.whsk-app) .ant-modal .ant-btn-primary { background: #ff8c42 !important; color: #363537 !important; border: 1px solid #363537 !important; border-radius: 6px !important; }
+
+@media (min-width: 1000px) {
+  .whsk-app > header { padding: 16px max(32px, calc((100% - 1600px) / 2)); }
+  .whsk-app > header .logoStyle a { margin-left: 0; }
+  .whsk-app > header .navbar { margin: 0; padding-inline: 0; align-self: center; }
+  .whsk-app > header .menuNav { padding-inline: 0; }
+  .whsk-app .navbar .navbar-item { margin-right: 1em; }
+  .whsk-app > header .navbar-item:last-child { margin-right: 0; }
+}
+@media (max-width: 998px) {
+  .whsk-app { padding-top: 80px; }
+  .whsk-app > .content { padding: 24px 18px 48px; }
+  .whsk-app .content:has(.login-container) { min-height: calc(100vh - 160px); padding-bottom: 80px; }
+  .whsk-app .content:has(.login-container)::before { display: none; }
+  .whsk-app .content:has(.login-container)::after { height: 38px; }
+}
+@media (max-width: 600px) {
+  .whsk-app .content .login-container, .whsk-app .content .signup-container { width: 100%; padding: 26px 22px; margin: 16px auto 40px; }
+  .whsk-app .page-title, .whsk-app .login-container h1, .whsk-app .signup-container h1, .whsk-app .header { font-size: 30px; }
+  .whsk-app .scoreboard-container { padding-top: 12px; }
+  .whsk-app .podium { height: 150px; padding: 0; gap: 8px; }
+  .whsk-app .podium > div { padding: 8px; }
+  .whsk-app .ant-table-content { overflow-x: auto; }
+  .whsk-app .ant-table-cell { font-size: 13px; }
+  .whsk-app table thead.ant-table-thead tr th, .whsk-app table tbody.ant-table-tbody tr td { padding: 12px; }
+  .whsk-app .Quiz { margin-top: 12px; }
+  .whsk-app .Quiz .questionTitle { margin-inline: 10px; }
+  .whsk-app .Quiz div.options button { min-height: 58px; font-size: 15px; }
+  .whsk-app .Quiz .options { padding-inline: 0; }
+  .whsk-app .team-container { gap: 16px; }
+  .whsk-app .team-member { width: 100%; margin: 0; }
+  .whsk-app .tutor-container { padding: 20px 0; }
+}

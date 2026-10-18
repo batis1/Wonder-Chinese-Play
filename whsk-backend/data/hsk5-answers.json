@@ -1,0 +1,5172 @@
+{
+  "version": 1,
+  "sources": {
+    "upper": {
+      "file": "Workbook/Answers/HSK标准教程（5上）练习册-录音文本及答案.pdf",
+      "sha256": "9fb8661fd3120ecd62a2cc0209cb8c1e744f35d5dccb78feaa45adeb11367be5",
+      "pageCount": 73
+    },
+    "lower": {
+      "file": "Workbook/Answers/HSK标准教程（5下）练习册-录音文本及答案.pdf",
+      "sha256": "5488d5976fd951f0a5435a319f1264d83661f5a94fc1c9b79a456afd1a7a4f34",
+      "pageCount": 81
+    }
+  },
+  "lessons": {
+    "1": {
+      "volume": "upper",
+      "title": "爱的细节",
+      "firstPage": 1,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "她居然放弃了这次的机会。",
+            "这次的机会她居然放弃了。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他们从来没为任何事吵过架。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "靠在我肩膀上睡一会儿吧。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 4
+    },
+    "2": {
+      "volume": "upper",
+      "title": "留串钥匙给父母",
+      "firstPage": 5,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这次出去打工挣了不少钱。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "妻子的微笑让我感受到家的温暖。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "窗外飘来一阵阵动听的歌声。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 8
+    },
+    "3": {
+      "volume": "upper",
+      "title": "人生有选择，一切可改变",
+      "firstPage": 9,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我随时可以开始干活儿。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我对新工作的要求就是待遇稳定。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "雨后的彩虹让他感受到一种平静。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 12
+    },
+    "4": {
+      "volume": "upper",
+      "title": "子路背米",
+      "firstPage": 13,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我的坏脾气让她受了不少委屈。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "喜欢网上阅读的人只占到8%。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这是个在中国流传了近千年的民间故事。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 16
+    },
+    "5": {
+      "volume": "upper",
+      "title": "济南的泉水",
+      "firstPage": 17,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这两种颜色形成了强烈的对比。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "皮影戏产生于两千年前的西汉时期。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "脸上的表情往往能反映一个人的心态。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 20
+    },
+    "6": {
+      "volume": "upper",
+      "title": "除夕的由来",
+      "firstPage": 21,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这东西以后说不定还会有用处的。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "整个下午，他们都在跳舞。",
+            "他们整个下午都在跳舞。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "方盒子似的楼房代替了北京原有的平房。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 24
+    },
+    "7": {
+      "volume": "upper",
+      "title": "成语故事两则",
+      "firstPage": 25,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我连续射了五六支箭。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "相信你一定能寻找到最终的结论。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他说这话的时候，我完全没有反应过来。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 28
+    },
+    "8": {
+      "volume": "upper",
+      "title": "“朝三暮四”的古今义",
+      "firstPage": 29,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这种产品有固定的消费群体。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "请你把昨晚的经历完整地叙述一遍。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "家庭的财力不能满足他的需要。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 32
+    },
+    "9": {
+      "volume": "upper",
+      "title": "别样鲁迅",
+      "firstPage": 33,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他因为胃病而戒了酒。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "你快尝尝这地道的传统点心。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他平均每两个星期要招待一次客人。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 36
+    },
+    "10": {
+      "volume": "upper",
+      "title": "争论的奇迹",
+      "firstPage": 37,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "你的人生或许将由此走向精彩。",
+            "或许你的人生将由此走向精彩。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "整个讨论都是围绕去留问题进行的。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这位年轻人始终表现得很稳定。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 40
+    },
+    "11": {
+      "volume": "upper",
+      "title": "闹钟的危害",
+      "firstPage": 41,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "放慢脚步是为了享受生活。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "人偶尔情绪低落是很正常的。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "雷阵雨持续的时间一般都较短。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 44
+    },
+    "12": {
+      "volume": "upper",
+      "title": "海外用户玩儿微信",
+      "firstPage": 45,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我曾经针对留学生做过一项调查。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "请给我一次实现愿望的机会。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "你不要用筷子敲打碗、盘子以及桌面。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 48
+    },
+    "13": {
+      "volume": "upper",
+      "title": "锯掉生活的“筐底”",
+      "firstPage": 49,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我们的训练学校缺乏在室内进行的运动项目。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "一再重复的暂停行为影响了比赛的气氛。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这次的宣传推广活动是受他们公司的启发。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 52
+    },
+    "14": {
+      "volume": "upper",
+      "title": "北京的四合院",
+      "firstPage": 53,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "北京四合院的样式很具有代表性。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "该产品已经具备了基本功能。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我很感激那位亲切的长辈曾经给我的帮助。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 56
+    },
+    "15": {
+      "volume": "upper",
+      "title": "纸上谈兵",
+      "firstPage": 57,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他对这种军事理论有很深的理解。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "谁都没有资格轻视别人。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这个故事讽刺的是那些不懂得灵活变通的人。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 60
+    },
+    "16": {
+      "volume": "upper",
+      "title": "体重与节食",
+      "firstPage": 61,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这次总共有两百多人来报名。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "医生决定采取中医的治疗方法。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "经理觉得小刘办事不太可靠。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 64
+    },
+    "17": {
+      "volume": "upper",
+      "title": "在最美好的时刻离开",
+      "firstPage": 65,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他要给自己争取更多的时间。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "老刘刚给我推荐了一份工作。",
+            "老刘给我刚推荐了一份工作。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这是最容易被人忽视的细节。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 68
+    },
+    "18": {
+      "volume": "upper",
+      "title": "抽象艺术美不美",
+      "firstPage": 69,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "上海给我留下了极其深刻的印象。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "哪怕是一分钟他也不愿意再等了。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "成语“画龙点睛”便出自关于他的传说。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 73
+    },
+    "19": {
+      "volume": "lower",
+      "title": "家乡的萝卜饼",
+      "firstPage": 1,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "饺子煮熟后要趁热吃才好。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "深夜的寒风像刀子般地吹来。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我一进门就闻到一股扑鼻的香味。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 4
+    },
+    "20": {
+      "volume": "lower",
+      "title": "小人书摊",
+      "firstPage": 5,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "史学家对这个问题提出了不少疑问。",
+            "对这个问题史学家提出了不少疑问。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这本书的印刷质量比较粗糙。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "周先生从事文艺创作已经很多年了。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 8
+    },
+    "21": {
+      "volume": "lower",
+      "title": "汉字叔叔：一个美国人的汉字情缘",
+      "firstPage": 9,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "采取任何行动之前都需要有完善的计划。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "刘校长在教改方面的成就值得称赞。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "活动的目的是为了培养学生克服困难的勇气。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 12
+    },
+    "22": {
+      "volume": "lower",
+      "title": "阅读与思考",
+      "firstPage": 13,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "单纯地主张阅读而不强调思考是片面的。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他为公司提供了很多有价值的建议。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "现在仍然存在着男女不平等的现象。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 16
+    },
+    "23": {
+      "volume": "lower",
+      "title": "放手",
+      "firstPage": 17,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "她是个遵守纪律的乖孩子。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我的目标是被名牌大学录取。",
+            "被名牌大学录取是我的目标。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他很善于和陌生人沟通。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 20
+    },
+    "24": {
+      "volume": "lower",
+      "title": "支教行动",
+      "firstPage": 21,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "促进社会进步是每个人的义务。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "刘老师经常利用空闲时间来指导我们。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "她丈夫是个既温柔又体贴的人。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 24
+    },
+    "25": {
+      "volume": "lower",
+      "title": "给自己加满水",
+      "firstPage": 25,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "一个偶然的机会彻底改变了他的命运。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "陈工程师也有与老人相似的经历。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "李老师的书房简直就是一个小图书馆。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 28
+    },
+    "26": {
+      "volume": "lower",
+      "title": "你属于哪一种“忙”",
+      "firstPage": 29,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "用铅笔书写的答卷一律无效。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "请不要把你的思想强加给我。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "问题是我们怎样才能搞到他的签名。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 32
+    },
+    "27": {
+      "volume": "lower",
+      "title": "下棋",
+      "firstPage": 33,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我们需要事先做出准确的估计。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "请珍惜你已经拥有的一切。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "老板的责备把职员们都吓坏了。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 36
+    },
+    "28": {
+      "volume": "lower",
+      "title": "最受欢迎的毕业生",
+      "firstPage": 37,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "她的反应是在正常范围内的。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "代表们已经陆续到达了会场。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他的成长过程可以给你参考。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 40
+    },
+    "29": {
+      "volume": "lower",
+      "title": "培养对手",
+      "firstPage": 41,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "对她的合理要求你不应该拒绝。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "对手不见得会妨碍我们的发展。",
+            "我们的发展不见得会妨碍对手。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这个理论已经被应用到商业领域。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 44
+    },
+    "30": {
+      "volume": "lower",
+      "title": "竞争让市场更高效",
+      "firstPage": 45,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他的这些话无意中接近了事实。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "必须采取措施刺激企业活跃起来。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这种商品占的比例太高了。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 48
+    },
+    "31": {
+      "volume": "lower",
+      "title": "登门槛效应",
+      "firstPage": 49,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "老师希望我能谦虚一点儿。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "请填写这张表格并出示您的护照。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "微笑是缩短人与人之间距离的好方法。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 52
+    },
+    "32": {
+      "volume": "lower",
+      "title": "身边的环保",
+      "firstPage": 53,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "父母从小就教育他要爱护环境。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这样才能逐步形成一些良好的习惯。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他也承认女演员的表演有点儿夸张。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 56
+    },
+    "33": {
+      "volume": "lower",
+      "title": "以堵治堵——缓解交通有妙招",
+      "firstPage": 57,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "请把这篇文章的大意归纳一下。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "第二天早晨他还是照常第一个来到单位。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "不公平竞争使这里繁荣的商业遭到了破坏。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 60
+    },
+    "34": {
+      "volume": "lower",
+      "title": "鸟儿的护肤术",
+      "firstPage": 61,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "我从来没接触过这方面的业务。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "请你概括一下今天学的戏剧的种类。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "老板反复强调过很多次了。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 64
+    },
+    "35": {
+      "volume": "lower",
+      "title": "植物会出汗",
+      "firstPage": 65,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "吃什么食物有可能缓解疲劳？"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这是他上次面试后交来的补充材料。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "植物用根吸收水分是大家都知道的常识。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 68
+    },
+    "36": {
+      "volume": "lower",
+      "title": "老舍与养花",
+      "firstPage": 69,
+      "questions": {
+        "1": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "2": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "3": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "4": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "5": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "6": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "7": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "8": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "9": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "10": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "11": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "12": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "13": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "14": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "15": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "16": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "17": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "18": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "19": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "20": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "21": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "22": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "23": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "24": {
+          "kind": "choice",
+          "correct": "A"
+        },
+        "25": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "26": {
+          "kind": "choice",
+          "correct": "C"
+        },
+        "27": {
+          "kind": "choice",
+          "correct": "D"
+        },
+        "28": {
+          "kind": "choice",
+          "correct": "B"
+        },
+        "29": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "她是我生命中唯一在乎的人。"
+          ]
+        },
+        "30": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "这次演出需要设计色彩鲜艳的服装。"
+          ]
+        },
+        "31": {
+          "kind": "sentence",
+          "acceptedAnswers": [
+            "他用剪刀剪出了一朵美丽的花。"
+          ]
+        },
+        "32": {
+          "kind": "open",
+          "reference": null,
+          "sourceNote": "略"
+        }
+      },
+      "answerPage": 72
+    }
+  }
+}

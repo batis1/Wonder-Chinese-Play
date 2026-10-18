@@ -1,0 +1,422 @@
+.login-container {
+  padding: 2rem;
+  max-width: 470px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Title styling */
+.login-container h1 {
+  font-weight: 800;
+  font-size: 2.0rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  background: linear-gradient(45deg, #e67329, #ff944d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+  text-align: center;
+}
+
+/* Form item spacing */
+.ant-form-item {
+  margin-bottom: 1rem !important;
+}
+
+/* Button styling */
+.ant-btn-primary {
+  background: linear-gradient(45deg, #e67329, #ff8f4d) !important;
+  border: none !important;
+  height: 40px !important;
+  width: 100% !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 2rem !important;
+  transition: all 0.3s ease !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.ant-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(75, 204, 163, 0.2) !important;
+}
+
+/* Sign up text styling */
+.form-text {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.form-link {
+  color: #e67329;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.form-link:hover {
+  color: #ff8f4d;
+  text-decoration: underline;
+}
+
+/* Mobile adjustments */
+@media (max-width: 380px) {
+  .login-container {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+}
+
+.qrcode-container {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.qrcode-wrapper {
+  margin: 20px 0;
+}
+
+.qrcode-placeholder {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid var(--border-color, #eee);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color, #fff);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove the h1 from the PasswordLogin component since it's now in the QRCodeLogin */
+.login-container h1 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* Tab styling */
+.ant-tabs {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.ant-tabs-nav {
+  margin-bottom: 2rem !important;
+}
+
+.ant-tabs-tab {
+  padding: 8px 0 !important;
+  font-size: 1rem !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  transition: color 0.3s ease !important;
+}
+
+.ant-tabs-tab:hover {
+  color: #ff8f4d !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #e67329 !important;
+  font-weight: 600 !important;
+}
+
+.ant-tabs-ink-bar {
+  background: linear-gradient(45deg, #e67329, #ff8f4d) !important;
+  height: 3px !important;
+}
+
+/* QR code specific styling */
+.qrcode-placeholder {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+}
+
+.qrcode-container .anticon-wechat {
+  color: #e67329 !important;
+  font-size: 64px !important;
+}
+
+.google-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  padding: 1rem;
+  width: 100%;
+}
+
+/* Desktop styling */
+@media (min-width: 768px) {
+  .google-login-container > div {
+    width: 100% !important;
+    max-width: 350px !important;
+    transform: scale(1.2);
+    margin: 20px 0;
+    transition: all 0.3s ease;
+  }
+
+  .google-login-container > div:hover {
+    opacity: 0.9;
+    transform: scale(1.22);
+  }
+}
+
+/* Mobile styling */
+@media (max-width: 767px) {
+  .google-login-container {
+    min-height: 100px;
+    padding: 0.5rem;
+  }
+
+  .google-login-container > div {
+    width: 100% !important;
+    transform: scale(1) !important;
+    margin: 10px 0;
+    transition: none !important;
+  }
+
+  .google-login-container > div:hover,
+  .google-login-container > div:active {
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  
+  /* Ensure button fits mobile screens */
+  .google-login-container iframe {
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+}
+
+/* iOS specific fixes */
+@supports (-webkit-touch-callout: none) {
+  .google-login-container > div {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+}
+
+/* Style for the Google tab */
+.ant-tabs-tab .anticon-google {
+  color: #e67329;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.wechat-login-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.ant-tabs-nav-list {
+  width: 100%;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+/* Remove the previous tab-specific margins */
+.ant-tabs-tab:first-child,
+.ant-tabs-tab:nth-child(2),
+.ant-tabs-tab:last-child {
+  margin: 0 !important;
+}
+
+/* Add minimum width to ensure text visibility */
+.ant-tabs-tab {
+  min-width: fit-content !important;
+  padding: 8px 16px !important;
+}
+
+/* Ensure tab text doesn't wrap */
+.ant-tabs-tab .ant-tabs-tab-btn {
+  white-space: nowrap !important;
+}
+
+/* Hide the more dropdown button */
+.ant-tabs-nav-more {
+  display: none !important;
+}
+
+/* Tab container styling */
+.ant-tabs-nav-list {
+  width: 100% !important;
+  display: flex !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.ant-tabs-tab {
+  flex: 1 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 8px 16px !important;
+  transition: all 0.3s ease-in-out !important;
+  position: relative !important;
+  overflow: hidden !important;
+  min-width: 0 !important;
+}
+
+/* Active tab styling */
+.ant-tabs-tab-active {
+  flex: 3 !important; /* Takes more space when active */
+}
+
+/* Inactive tab styling */
+.ant-tabs-tab:not(.ant-tabs-tab-active) {
+  flex: 1 !important;
+  opacity: 0.7 !important;
+}
+
+/* Tab button text */
+.ant-tabs-tab .ant-tabs-tab-btn {
+  white-space: nowrap !important;
+  transition: all 0.3s ease-in-out !important;
+  position: relative !important;
+  width: 100% !important;
+  text-align: center !important;
+}
+
+/* Active tab text */
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  transform: scale(1.1) !important;
+}
+
+/* Inactive tab text */
+.ant-tabs-tab:not(.ant-tabs-tab-active) .ant-tabs-tab-btn {
+  transform: scale(0.9) !important;
+}
+
+/* Ink bar animation */
+.ant-tabs-ink-bar {
+  transition: all 0.3s ease-in-out !important;
+}
+
+/* Base login container styles */
+.login-container {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Desktop-specific styles */
+@media (hover: hover) and (pointer: fine) {
+  .login-container {
+    transition: all 0.3s ease;
+  }
+
+  .ant-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(75, 204, 163, 0.2) !important;
+  }
+
+  .form-link:hover {
+    color: #ff8f4d;
+    text-decoration: underline;
+  }
+
+  .ant-tabs-tab:hover {
+    color: #ff8f4d !important;
+  }
+}
+
+/* Mobile and touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  .login-container {
+    margin: 1rem auto;
+    transition: none !important;
+    backdrop-filter: none; /* Disable for better performance */
+    background: rgba(255, 255, 255, 0.15); /* Solid background fallback */
+  }
+
+  .ant-btn-primary,
+  .form-link,
+  .ant-tabs-tab {
+    transition: none !important;
+    transform: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .ant-btn-primary:active {
+    background: #e67329 !important;
+    transform: none !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .form-link:active {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+
+  .ant-tabs-tab:active {
+    opacity: 0.7;
+  }
+
+  /* Remove animations */
+  .ant-tabs-ink-bar {
+    transition: none !important;
+  }
+}
+
+/* iOS specific fixes */
+@supports (-webkit-touch-callout: none) {
+  .login-container {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+  }
+
+  .ant-form-item,
+  .ant-input,
+  .ant-btn-primary {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+
+  /* Prevent scroll issues */
+  .ant-tabs-content {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Small screen specific adjustments */
+@media (max-width: 380px) {
+  .login-container {
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .ant-form-item {
+    margin-bottom: 0.75rem !important;
+  }
+
+  .ant-btn-primary {
+    margin-top: 1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+}

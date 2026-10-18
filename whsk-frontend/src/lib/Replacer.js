@@ -1,0 +1,47 @@
+const Replacer = (string) => {
+  const apostrophe = /&#039;/g;
+  const apostrophe1 = /&#O39/g;
+  const quote = /&quot;/g;
+  const quote1 = /&QUOT;/g;
+  const quote2 = /&qu0t;/g;
+  const quote3 = /&ldquo;/g;
+  const quote4 = /&rdquo;/g;
+  const e = /&ecirc;/g;
+  const dash = /&ndash;/g;
+  const e1 = /&eacute;/g;
+  const o = /&ocirc;/g;
+  const o1 = /&ouml;/g;
+  const u = /&uuml;/g;
+  const u1 = /&Uuml;/g;
+  const pi = /&Pi;/g;
+  const and = /&AMP;/g;
+  const and1 = /&amp;/g;
+  const a1 = /&Aacute;/g;
+  const a2 = /&aacute;/g;
+  const ntil = /&ntilde;/g;
+
+  if (!string) return "";
+  let s = string.replace(apostrophe, "'");
+  s = s.replace(apostrophe1, "'");
+  s = s.replace(quote, '"');
+  s = s.replace(quote1, '"');
+  s = s.replace(quote2, '"');
+  s = s.replace(quote3, '"');
+  s = s.replace(quote4, '"');
+  s = s.replace(e, "ê");
+  s = s.replace(dash, "-");
+  s = s.replace(e1, "é");
+  s = s.replace(o, "ô");
+  s = s.replace(o1, "ö");
+  s = s.replace(u, "ü");
+  s = s.replace(u1, "Ü");
+  s = s.replace(pi, "Π");
+  s = s.replace(and, "&");
+  s = s.replace(and1, "&");
+  s = s.replace(a1, "Á");
+  s = s.replace(a2, "á");
+  s = s.replace(ntil, "ñ");
+  return s;
+};
+
+module.exports = Replacer;

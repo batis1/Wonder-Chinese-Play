@@ -1,0 +1,733 @@
+.hometitle {
+  font-weight: 800;
+  font-size: 2.0rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  background: linear-gradient(45deg, #e67329, #ff944d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+.homesubtitle {
+  color: var(--greyAccent);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+.homebtn {
+  color: var(--darkAccent);
+  margin-top: 0.25rem;
+  height: 3.75rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  width: 10.625rem;
+  height: 3.125rem;
+  cursor: pointer;
+  margin-right: 0.625rem;
+}
+.getstarted,
+.playnow {
+  background-color: var(--darkerOrange);
+  /* color: var(--lightAccent); */
+}
+.getstarted:hover,
+.playnow:hover {
+  background: var(--orangeAccent);
+}
+.white {
+  background-color: var(--greyAccent);
+  
+}
+.white:hover {
+  background: var(--greyAccent);
+  /* color: var(--lightAccent); */
+}
+.buttoncontainer1,
+.buttoncontainer2 {
+  display: flex;
+  flex-direction: row;
+}
+.hometitle-container {
+  margin-top: 3.125rem;
+  margin-bottom: 0.75rem;
+  max-width: 800px;
+}
+.Home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--background);
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hometitle-container {
+  margin-bottom: 4rem;
+  max-width: 800px;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.title-wrapper {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.hometitle {
+  font-weight: 800;
+  font-size: 2.0rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  background: linear-gradient(45deg, #e67329, #ff944d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+
+.title-underline {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(45deg, #e67e22, #d35400);
+  border-radius: 2px;
+}
+
+.homesubtitle {
+  color: var(--greyAccent);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-text {
+  color: #e67e22;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.home-buttonsContainer {
+  display: flex;
+  justify-content: center;
+  animation: fadeInUp 1s ease-out 0.3s;
+  animation-fill-mode: both;
+}
+
+.buttoncontainer1,
+.ButtonOptions {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn.homebtn,
+.ButtonOptions button {
+  position: relative;
+  min-width: 220px;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  background: rgba(70, 70, 70, 1);
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  box-shadow: none;
+  outline: none;
+}
+
+/* Desktop hover effects */
+@media (hover: hover) and (pointer: fine) {
+  .btn.homebtn,
+  .ButtonOptions button {
+    transition: all 0.3s ease;
+  }
+
+  .btn.homebtn:hover,
+  .ButtonOptions button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(244, 123, 63, 0.4);
+    background: #FF8B4F;
+  }
+}
+
+/* Mobile touch feedback */
+@media (hover: none) and (pointer: coarse) {
+  .btn.homebtn,
+  .ButtonOptions button {
+    transition: none;
+    animation: none;
+    transform: none !important;
+    filter: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    
+    &:active {
+      background: rgba(60, 60, 60, 1);
+      opacity: 1;
+      box-shadow: none;
+      transform: none !important;
+      outline: none;
+    }
+    
+    &:hover {
+      background: rgba(70, 70, 70, 1);
+    }
+  }
+}
+
+/* Mobile layout adjustments */
+@media screen and (max-width: 768px) {
+  .buttoncontainer1,
+  .ButtonOptions div {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn.homebtn,
+  .ButtonOptions button {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+/* iOS specific optimizations */
+@supports (-webkit-touch-callout: none) {
+  .btn.homebtn,
+  .ButtonOptions button {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    filter: none;
+    -webkit-filter: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+    
+    &:active {
+      background: rgba(60, 60, 60, 1);
+      opacity: 1;
+      box-shadow: none;
+      filter: none;
+      -webkit-filter: none;
+    }
+  }
+}
+
+.getstarted {
+  background-color: #e67e22;
+  color: white !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.getstarted:hover {
+  background-color: #d35400;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(230, 126, 34, 0.2);
+}
+
+.tutorial {
+  background-color: var(--greyAccent);
+  /* color: #e67e22 !important; */
+  /* border: 2px solid #e67e22 !important; */
+}
+
+.tutorial:hover {
+  background-color: rgba(230, 126, 34, 0.05) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(230, 126, 34, 0.1);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.herologo {
+  margin-top: -26.25rem;
+  margin-left: 1.563rem;
+}
+.clocklogo {
+  margin-top: -11.25rem;
+  margin-left: 15.875rem;
+  /* border-radius: 50%; */
+}
+.imagecontainer {
+  /* display: flex;
+  flex-direction: column; */
+  margin-left: 5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .herologo,
+  .imageex {
+    display: none;
+  }
+  .clocklogo {
+    margin-bottom: -15.625rem;
+    margin-left: 0.625rem;
+  }
+  .Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+  }
+  .buttoncontainer1,
+  .buttoncontainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .homebtn {
+    margin-bottom: 0.25rem;
+  }
+  .theme-toggle {
+    margin-top: 25px;
+  }
+}
+.theme-toggle i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.theme-toggle {
+  margin-right: 10rem;
+  margin-bottom: 11px;
+  margin-top: -2rem;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .theme-toggle {
+    margin-top: 25px;
+  }
+  /* .Home {
+    margin-left: 1rem;
+  } */
+}
+
+/* Add these new styles for the animated arrow */
+.scroll-arrow {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  animation: bounce 2s infinite;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  border-right: 4px solid #e67e22;
+  border-bottom: 4px solid #e67e22;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease;
+}
+
+.scroll-arrow:hover .arrow {
+  transform: rotate(45deg) scale(1.1);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Update button text styles to match the image */
+.btn.homebtn {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.getstarted {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(5px);
+  border: none !important;
+  color: white !important;
+}
+
+.tutorial {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(5px);
+  border: none !important;
+  color: white !important;
+}
+
+.getstarted:hover, .tutorial:hover {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Ensure smooth scrolling for all devices including iOS */
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling for iOS */
+}
+
+/* For iOS devices specifically */
+@supports (-webkit-touch-callout: none) {
+  html, body {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .Home {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Target the specific scrollable container if needed */
+  .main-content {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Update media queries for better mobile experience */
+@media screen and (max-width: 768px) {
+  .scroll-arrow {
+    margin: 0.3rem 0;
+  }
+  
+  .arrow {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.btn.homebtn {
+  /* Base button styles */
+  position: relative;
+  padding: 15px 30px;
+  border-radius: 50px;
+  background: #F47B3F; /* Solid orange color */
+  border: none;
+  box-shadow: 0 4px 8px rgba(244, 123, 63, 0.3); /* Subtle shadow */
+  
+  /* Text styles */
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  
+  /* Container properties */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Animation */
+  transition: all 0.3s ease;
+}
+
+.btn.homebtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(244, 123, 63, 0.4); /* Enhanced shadow on hover */
+  background: #FF8B4F; /* Slightly lighter on hover */
+}
+
+/* Add this if you want the glowing animation */
+@keyframes glow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn.homebtn {
+  background-size: 200% 200%;
+  animation: glow 3s ease infinite;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .buttoncontainer1,
+  .ButtonOptions {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.homebtn.getstarted {
+  min-width: 200px;  /* or whatever width is needed to fit the text */
+  white-space: nowrap;  /* prevents text from wrapping */
+}
+
+/* Feature Cards Styles */
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 4rem 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: left;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  isolation: isolate; /* Prevent backdrop-filter stacking */
+  -webkit-transform: translateZ(0); /* Force GPU acceleration */
+  transform: translateZ(0);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.feature-card i {
+  font-size: 2rem;
+  color: #F47B3F;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .feature-cards {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+  
+  .feature-card {
+    padding: 1.5rem;
+  }
+}
+
+/* Update the hover effects to only apply on non-touch devices */
+@media (hover: hover) {
+  .btn.homebtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(244, 123, 63, 0.4);
+    background: #FF8B4F;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .getstarted:hover, .tutorial:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Remove transform effects for touch devices */
+@media (hover: none) {
+  .btn.homebtn:active,
+  .feature-card:active,
+  .getstarted:active,
+  .tutorial:active {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: none;
+  }
+}
+
+/* Fix for the animation glitch */
+.btn.homebtn {
+  /* Remove the infinite animation that might cause issues */
+  animation: none;
+  /* Keep other existing styles */
+  background: #F47B3F;
+  position: relative;
+  padding: 15px 30px;
+  /* ... other existing styles ... */
+}
+
+/* Add the coming soon badge style */
+.coming-soon-badge {
+  background: #F47B3F;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-left: 8px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+/* Remove hover effects for mobile touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .feature-card:hover,
+  .feature-card:active,
+  .btn.homebtn:hover,
+  .btn.homebtn:active {
+    transform: none !important;
+  }
+}
+
+/* Keep hover effects only for devices that support hover */
+@media (hover: hover) and (pointer: fine) {
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .btn.homebtn:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Remove any hover effects during scroll on mobile */
+@media (hover: none) and (pointer: coarse) {
+  .feature-card {
+    transition: none;
+    backdrop-filter: none; /* Disable backdrop filter on mobile */
+    background: rgba(255, 255, 255, 0.1); /* Use solid background instead */
+  }
+  
+  .feature-card:hover,
+  .feature-card:active,
+  .feature-card:focus {
+    transform: none !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+  }
+}
+
+/* Prevent iOS Safari scroll issues */
+@supports (-webkit-touch-callout: none) {
+  .feature-card {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .feature-cards {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+/* Base button styles remain the same but move hover effects to desktop-only */
+.btn.homebtn {
+  -webkit-tap-highlight-color: transparent; /* Prevent tap highlight on mobile */
+  -webkit-transform: translateZ(0); /* Hardware acceleration */
+  transform: translateZ(0);
+  will-change: transform; /* Optimize for animations */
+  transition: none; /* Remove transitions on mobile by default */
+}
+
+/* Desktop-only hover effects */
+@media (hover: hover) and (pointer: fine) {
+  .btn.homebtn {
+    transition: all 0.3s ease; /* Re-enable transitions for desktop */
+  }
+
+  .btn.homebtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(244, 123, 63, 0.4);
+    background: #FF8B4F;
+  }
+
+  .getstarted:hover, 
+  .tutorial:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Mobile touch device specific styles */
+@media (hover: none) and (pointer: coarse) {
+  .btn.homebtn,
+  .getstarted,
+  .tutorial {
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .btn.homebtn:active,
+  .getstarted:active,
+  .tutorial:active {
+    background: #E66B2F !important; /* Darker shade for active state */
+    transform: none !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+  }
+}
+
+/* iOS specific fixes */
+@supports (-webkit-touch-callout: none) {
+  .btn.homebtn,
+  .getstarted,
+  .tutorial {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+  }
+}

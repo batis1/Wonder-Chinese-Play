@@ -1,0 +1,68 @@
+.logoStyle {
+  display: flex;
+  align-items: center;
+  height: 38.4px;
+}
+
+.logoStyle a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 4px;
+  height: 100%;
+  margin-left: 4em;
+}
+
+.mainLogo {
+  font-size: 2.5rem;
+  color: var(--darkerOrange);
+  font-family: 'Great Vibes', cursive;
+}
+
+.subLogoHSK {
+  font-size: 1.8rem;
+  color: var(--accentColor);
+  font-family: 'Arial', sans-serif;
+}
+
+@media (max-width: 998px) {
+  .logoStyle a {
+    margin-left: 0;
+  }
+  
+  .mainLogo {
+    font-size: 1.8rem;
+    color: var(--darkerOrange);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .subLogoHSK {
+    font-size: 1.6rem;
+    color: var(--lightAccent);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 430px) {
+  .logoStyle {
+    font-size: 1.4rem;
+    padding-left: 0.2em;
+  }
+  
+  .mainLogo {
+    font-size: 2rem;
+  }
+  
+  .subLogoHSK {
+    font-size: 1.5rem;
+  }
+}
+
+/* Add this to App.css */
+/* .app {
+  padding-top: 80px;
+} */

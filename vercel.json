@@ -1,0 +1,31 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "frontend": {
+      "root": "whsk-frontend",
+      "framework": "create-react-app",
+      "installCommand": "npm ci --legacy-peer-deps --no-audit --no-fund",
+      "buildCommand": "CI=false npm run build",
+      "outputDirectory": "build",
+      "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+    },
+    "backend": {
+      "root": "whsk-backend",
+      "framework": "express",
+      "entrypoint": "api/index.js",
+      "installCommand": "npm ci --omit=dev --legacy-peer-deps --no-audit --no-fund",
+      "rewrites": [{ "source": "/api/:path(.*)?", "destination": "/:path" }],
+      "functions": { "api/index.js": { "maxDuration": 60, "excludeFiles": "{public/**,tests/**,scripts/**}" } }
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": { "service": "backend" } },
+    { "source": "/(.*)", "destination": { "service": "frontend" } }
+  ],
+  "headers": [
+    { "source": "/static/(.*)", "headers": [{ "key": "Cache-Control", "value": "public,max-age=31536000,immutable" }] },
+    { "source": "/api/workbook/hsk5/audio/(.*)", "headers": [{ "key": "Cache-Control", "value": "public,max-age=86400,s-maxage=604800" }] },
+    { "source": "/api/workbook/hsk5/illustrations/(.*)", "headers": [{ "key": "Cache-Control", "value": "public,max-age=86400,s-maxage=604800" }] },
+    { "source": "/api/workbook/hsk5/:kind(book|answers)/:volume", "headers": [{ "key": "Content-Type", "value": "application/pdf" }, { "key": "Content-Disposition", "value": "inline" }, { "key": "Cache-Control", "value": "public,max-age=3600,s-maxage=86400" }] }
+  ]
+}

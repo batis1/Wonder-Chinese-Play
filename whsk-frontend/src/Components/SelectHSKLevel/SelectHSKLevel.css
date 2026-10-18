@@ -1,0 +1,161 @@
+.select-hsk-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .select-hsk-container p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .hsk-form {
+    text-align: center;
+  }
+  
+  .hsk-form h1 {
+    margin-bottom: 20px;
+  }
+  
+  .hsk-form p {
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .ant-select {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .ant-select-selector {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(10px) !important;
+    height: 50px !important;
+    padding: 8px 16px !important;
+  }
+  
+  .ant-select-selection-item {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 1.1rem !important;
+    line-height: 34px !important;
+  }
+  
+  .select-hsk-container .ant-btn-primary {
+    background: linear-gradient(45deg, #e67329, #ff8f4d) !important;
+    border: none !important;
+    height: 50px !important;
+    width: 100% !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    border-radius: 8px !important;
+    transition: all 0.3s ease !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+  
+  .select-hsk-container .ant-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(230, 115, 41, 0.2) !important;
+  }
+  
+  .ant-select-dropdown {
+    background: rgba(40, 40, 40, 0.95) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding: 8px !important;
+  }
+  
+  .ant-select-item {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 1.1rem !important;
+    padding: 12px 16px !important;
+    height: auto !important;
+  }
+  
+  .ant-select-item-option-selected {
+    background: rgba(230, 115, 41, 0.2) !important;
+    font-weight: 600 !important;
+  }
+  
+  .ant-select-item-option-active {
+    background: rgba(230, 115, 41, 0.1) !important;
+  }
+  
+  .ant-modal-title {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 1.5rem !important;
+    text-align: center !important;
+  }
+  
+  .ant-modal-content {
+    background: rgba(40, 40, 40, 0.95) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  /* Modal styling */
+  .ant-modal .ant-modal-content {
+    background: rgba(40, 40, 40, 0.95) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 20px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+  }
+  
+  /* Modal header styling */
+  .ant-modal .ant-modal-header {
+    background: transparent !important;
+    border-bottom: none !important;
+    padding: 24px 24px 0 !important;
+  }
+  
+  /* Modal title styling */
+  .ant-modal .ant-modal-title {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 1.5rem !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    background: linear-gradient(45deg, #e67329, #ff944d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Modal body styling */
+  .ant-modal .ant-modal-body {
+    padding: 24px !important;
+  }
+  
+  /* Info icon styling */
+  .ant-modal .anticon-info-circle {
+    color: #e67329 !important;
+  }
+  
+  /* Select dropdown in modal */
+  .ant-modal .ant-select-selector {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px !important;
+  }
+  
+  /* Select dropdown text */
+  .ant-modal .ant-select-selection-item {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+  
+  /* Button in modal */
+  .ant-modal .ant-btn-primary {
+    background: linear-gradient(45deg, #e67329, #ff8f4d) !important;
+    border: none !important;
+    border-radius: 8px !important;
+  }
+  
+  /* Modal background overlay */
+  .ant-modal-mask {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(5px) !important;
+  }

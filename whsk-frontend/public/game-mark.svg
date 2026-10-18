@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="game-badge"><rect width="40" height="40" rx="8"/></clipPath>
+  </defs>
+  <rect width="40" height="40" rx="8" fill="#ffb078"/>
+  <path clip-path="url(#game-badge)" d="m33 11.5-5.5 5.1c-1.8-2.3-4.5-3.6-7.5-3.6-4.5 0-8 3.5-8 8s3.5 8 8 8c3.5 0 6.6-2.2 7.7-5H20v-7h14v10l11 11v7h-8L25.8 33.8c-1.9.8-3.9 1.2-6.1 1.2C11.3 35 4.5 28.3 4.5 20S11.3 5 19.7 5c5.5 0 10.1 2.3 13.3 6.5Z" fill="#fff"/>
+</svg>
