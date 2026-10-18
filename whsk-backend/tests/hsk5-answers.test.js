@@ -34,10 +34,11 @@ test('all 36 lessons map to 1008 objective keys, 108 sentence references and 36 
 });
 
 test('source files are the supplied workbook answer PDFs and match their recorded digests', () => {
-  for (const source of Object.values(keys.sources)) {
+  for (const [volume, source] of Object.entries(keys.sources)) {
     assert.ok(source.file.startsWith('Workbook/Answers/'));
     assert.ok(source.file.endsWith('.pdf'));
-    const file = fs.readFileSync(path.resolve(__dirname, '../..', source.file));
+    const original = path.resolve(__dirname, '../..', ...source.file.split(/[\\/]/));
+    const file = fs.readFileSync(fs.existsSync(original) ? original : path.resolve(__dirname, '../public/workbook/hsk5/answers', volume));
     assert.equal(crypto.createHash('sha256').update(file).digest('hex'), source.sha256);
   }
   assert.equal(keys.sources.upper.pageCount, 73); assert.equal(keys.sources.lower.pageCount, 81);

@@ -42,7 +42,9 @@ test('the manifest maps all 36 lessons, 1152 responses and 72 HSK 5 audio tracks
         const relative = media[lesson.volume][activity.audioFile];
         assert.ok(relative);
         assert.ok(!relative.includes('hsk 6'));
-        assert.ok(fs.statSync(path.join(root, relative)).size > 10000);
+        const original = path.join(root, ...relative.split(/[\\/]/));
+        const bundled = path.join(__dirname, '../public/workbook/hsk5/audio', lesson.volume, activity.audioFile);
+        assert.ok(fs.statSync(fs.existsSync(original) ? original : bundled).size > 10000);
       }
     }
     for (const page of lesson.answerPages) assert.ok(page <= course.volumes[lesson.volume].pageCount);

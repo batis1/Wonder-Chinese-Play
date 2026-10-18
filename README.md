@@ -28,6 +28,6 @@ Deployment copies are under `whsk-backend/public/workbook/hsk5`. There are 72 mo
 
 ## Verification
 
-Backend: `node --test tests/*.test.js` from `whsk-backend`. Frontend: build first, then `node --test scripts/*test.cjs` from `whsk-frontend`. Original-source PDF provenance checks require the original `Workbook` folder when running the source-import tests.
+Backend: `node --test tests/*.test.js` from `whsk-backend`. Frontend: build first, then `node --test scripts/*test.cjs` from `whsk-frontend`. PDF provenance and audio checks also work against the included deployment assets when the original `Workbook` folder is absent.
 
 See `PERFORMANCE.md` for measured results and verification limits. Timings vary with device, network, database state and cold starts; they are measurements rather than a guarantee of maximum speed.
